@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsoleApplication8")]
+[assembly: AssemblyTitle("ConsoleApplication4")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Neudesic")]
-[assembly: AssemblyProduct("ConsoleApplication8")]
+[assembly: AssemblyProduct("ConsoleApplication4")]
 [assembly: AssemblyCopyright("Copyright © Neudesic 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b93bd04a-013d-47a7-b6c3-ba5202d6f51e")]
+[assembly: Guid("ae392a31-58d3-4269-974c-9e7b208f8d36")]
 
 // Version information for an assembly consists of the following four values:
 //
