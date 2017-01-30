@@ -4,25 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication4
+namespace ConsoleApplication8
 {
-
-    class Program
+    public delegate string Assignments();
+    class Delegate
     {
-        delegate string Assignments(string answer);
-        public string Check(string x)
+        public event Assignments test;
+        public Delegate()
+        {
+            test = new Assignments(Check);
+        }
+        //delegate instance//
+        public string Check()
         {
             string ans = "no";
             while (ans != "Yes")
             {
-                Console.ReadLine();
+                ans = Console.ReadLine();
             }
-            return "yes";
+            return ans;
         }
+
+
         static void Main(string[] args)
         {
-            Assignments num1 = new Assignments(Check());
-            num1("yes");
+            string ans;
+            Delegate test1 = new Delegate();
+            ans = test1.test();
+            Console.WriteLine("The user has entered {0}", ans);
+            Console.ReadKey();
         }
     }
 }
+
+
