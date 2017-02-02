@@ -1,5 +1,0 @@
-C:\Users\Neeharika.Pathuri\Documents\HelloWorld\ConsoleApplication16\ConsoleApplication16\bin\Debug\ConsoleApplication16.exe.config
-C:\Users\Neeharika.Pathuri\Documents\HelloWorld\ConsoleApplication16\ConsoleApplication16\bin\Debug\ConsoleApplication16.exe
-C:\Users\Neeharika.Pathuri\Documents\HelloWorld\ConsoleApplication16\ConsoleApplication16\bin\Debug\ConsoleApplication16.pdb
-C:\Users\Neeharika.Pathuri\Documents\HelloWorld\ConsoleApplication16\ConsoleApplication16\obj\Debug\ConsoleApplication16.exe
-C:\Users\Neeharika.Pathuri\Documents\HelloWorld\ConsoleApplication16\ConsoleApplication16\obj\Debug\ConsoleApplication16.pdb

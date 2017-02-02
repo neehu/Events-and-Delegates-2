@@ -10,10 +10,10 @@ public delegate string Assignments();
 
 class Delegate
 {
-    public event Assignments assignmentCheck;
+    public event Assignments assignment;
     public Delegate()
     {
-        assignmentCheck = new Assignments(CheckForCompletion);
+        assignment = new Assignments(CheckForCompletion);
     }
     //delegate instance//
     public string CheckForCompletion()
@@ -29,10 +29,10 @@ class Delegate
 
     static void Main(string[] args)
     {
-        string passedOnUserInput;
+        string userInput;
         Delegate testvariable = new Delegate();
-        passedOnUserInput = testvariable.assignmentCheck();
-        Console.WriteLine("The user has entered {0}", passedOnUserInput);
+        userInput = testvariable.assignment();
+        Console.WriteLine("The user has entered {0}", userInput);
         Console.ReadKey();
     }
 }
